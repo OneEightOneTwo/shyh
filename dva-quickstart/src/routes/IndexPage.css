@@ -1,0 +1,82 @@
+.war{
+  width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+.headers{
+  height: 160px;
+  background: brown;
+  width: 100%;
+  margin-bottom: 14px 
+}
+/* .container{
+
+} */
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+  display: inline;
+}
+.w706 {
+  width: 706px;
+}
+.w348 {
+  width: 348px !important;
+  height: 231px;
+  background: hotpink;
+  margin-bottom: 14px ;
+  border-radius: 10px
+}
+.w_263 {
+  width: 263px!important;
+}
+.rolling {
+  width: 706px;
+  height: 247px;
+  overflow: hidden;
+  zoom: 1;
+  background: gray;
+  margin-bottom: 14px;
+  border-radius: 10px
+}
+.t_bar{
+  height: 171px;
+  background: khaki;
+  width: 707px;
+  margin-bottom: 14px;
+  border-radius: 10px
+}
+.footers{
+  height: 152px;
+  width: 100%;
+  background: blue;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+.clear {
+  clear: both;
+}
+.gr_car{
+  height: 89px;
+  width: 100%;
+  background: blue;
+  border-radius: 10px;
+  margin-bottom: 14px
+}
+.accordion{
+  height: 427px;
+  width: 100%;
+  background: bisque;
+  border-radius: 10px;
+  margin-bottom: 14px
+}
+
+
+
+
+
+
+
+
