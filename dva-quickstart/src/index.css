@@ -1,12 +1,19 @@
-html, body, :global(#root) {
+*{
   margin: 0;
   padding: 0;
 }
-
-
-
-
-
+a{
+  text-decoration: none
+}
+ul,li{
+  list-style: none;
+}
+boby, div, p, li {
+  font: 12px Microsoft YaHei, SimHe, arial, SimSun;
+  color: #333;
+  _line-height: 1.7;
+  -webkit-text-size-adjust: none;
+}
 
 
 

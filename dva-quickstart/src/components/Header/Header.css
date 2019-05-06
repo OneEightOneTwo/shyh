@@ -1,0 +1,64 @@
+  .container {
+    width: 980px;
+    margin: 0 auto;
+  }
+  a{
+    color: #333
+  }
+  .fl {
+    float: left;
+  }
+  
+  .fr {
+    float: right;
+  }
+  
+  .header {
+    width: 980px;
+    height: 98px;
+    margin: 0 auto;
+    background-image: url(../../assets/dfmz.jpg);
+    background-position: 40%;
+    background-repeat: no-repeat;
+  }
+  
+  .header .logo {
+    width: 293px;
+    height: 52px;
+    padding-top: 25px;
+    float: left;
+  }
+  
+  .header .submenu {
+    min-width: 300px;
+    padding-top: 10px;
+    padding-right: 124px;
+    float: right;
+  }
+  
+  .header .submenu a:hover {
+    text-decoration: underline;
+  }
+  
+  .header .search {
+    width: 251px;
+    padding-top: 20px;
+    float: right;
+    background: url(../../assets/input_01.gif) no-repeat 0 20px;
+  }
+  
+  .header .search .input01 {
+    width: 186px;
+    _width: 180px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    float: left;
+    border: 0;
+    background: none;
+    color: #999;
+    font-family: simsun;
+  }
+
+
+  

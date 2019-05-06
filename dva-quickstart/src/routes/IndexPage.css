@@ -5,19 +5,14 @@
 }
 .headers{
   height: 160px;
-  background: brown;
-  width: 100%;
-  margin-bottom: 14px 
+  width: 100%; 
 }
-/* .container{
-
-} */
 .fr{
   float: right;
 }
 .fl{
-  float: left;
   display: inline;
+  float: left;
 }
 .w706 {
   width: 706px;
@@ -51,10 +46,15 @@
 .footers{
   height: 152px;
   width: 100%;
-  background: blue;
   border-radius: 10px;
   margin-bottom: 14px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+  color: #fff !important;
+  overflow: hidden;
 }
+
 .clear {
   clear: both;
 }

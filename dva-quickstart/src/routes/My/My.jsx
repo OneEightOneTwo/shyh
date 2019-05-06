@@ -1,12 +1,11 @@
 import React from 'react';
 import { connect } from 'dva';
-import style from './IndexPage.css';
-import Header from "../components/Header/Header.jsx"
-import Footer from "../components/Footer/Footer.jsx"
-import Menu from "../components/Menu/Menu.jsx"
-import Lunbotu from "../components/Lunbotu/Lunbotu.jsx"
-function IndexPage() {
-
+import style from './My.css';
+import Header from "../../components/Header/Header.jsx"
+import Footer from "../../components/Footer/Footer.jsx"
+import Menu from "../../components/Menu/Menu.jsx"
+import Lunbotu from "../../components/Lunbotu/Lunbotu.jsx"
+function My() {
   return (
     <div className={style.war}>
                     {/* 头部 、、、、、、、、、、、、、、、、、*/}
@@ -16,12 +15,10 @@ function IndexPage() {
         </div>
                     {/* 内容、、、、、、、、、、、、、、、、、、 */}
         <div className={style.container}>
-                    {/* 右侧浮动内容 */}
+                     {/* 右侧浮动内容 */}
           <div className={`${style.fr} ${style.w706}`}>
                     {/* 轮播图 */}
-            <div className={style.rolling}>
-                <Lunbotu/>
-            </div>
+            <div className={style.rolling}><Lunbotu/></div>
                     {/* 四个卡片 */}
             <div className={`${style.fl} ${style.w348}`}>卡片1，高度已经写死，需要根据内容适配来改高度</div>
             <div className={`${style.fr} ${style.w348}`}>卡片2，高度已经写死，需要根据内容适配来改高度</div>
@@ -48,7 +45,7 @@ function IndexPage() {
   );
 }
 
-IndexPage.propTypes = {
+My.propTypes = {
 };
 
-export default connect()(IndexPage);
+export default connect()(My);

@@ -1,0 +1,24 @@
+.menu {
+  width: 980px;
+  height: 62px;
+  margin: 0 auto;
+  background: url(../../assets/menubg.png) no-repeat 0 0;
+}
+
+.menu li {
+  height: 32px;
+  padding: 15px 26px 0 26px;
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  background: url(../../assets/line.gif) no-repeat top right;
+}
+
+.menu li a {
+  color: #ffffff;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
